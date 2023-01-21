@@ -1,0 +1,69 @@
+.one p{
+text-align: left;
+transition: 1350s;
+transition: ease-in-out;
+}
+
+.one p:hover{
+    text-align: right;
+    transition: ease-in-out;
+    }
+
+#loading{
+background-color: orange;
+width: 100px;
+transition: 10s;
+}
+
+
+#loading:hover{
+    background-color: orange;
+    width: 1350px;
+    }
+
+
+.rectangle h1{
+text-align: center;
+transform: translateY(70px);
+}
+
+
+.circle h1{
+    text-align: center;
+    transform: translateY(-45px);
+    }
+
+
+.circle{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    color: white;
+    transition: background-color 1s , transform 0.3s 1s ease-in;
+}
+
+
+
+.circle:hover{
+background-color: red;
+color: white;
+transform: rotate(360deg);
+}
+
+.rectangle{
+    transform: translateY(100px);
+    color: white;
+    background-color: rgb(47, 187, 164);
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+
+.rectangle:hover{
+    color: white;
+    background-color: rgb(251, 255, 0);
+    width: 600px;
+    height: 200px;
+}
